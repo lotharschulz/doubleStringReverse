@@ -11,11 +11,11 @@ go install
 
 ## run
 ```
-cd ../../
-go run src/main.go
+cd ../ # (in src directory)
+go run main.go
 ```
 
 ## test
 ```
-go test
+go test -v ./... # (in src directory)
 ```

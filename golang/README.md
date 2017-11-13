@@ -2,7 +2,7 @@
 
 ## install
 ```
-GOPATH=`pwd`
+GOPATH=$(pwd)
 echo $GOPATH
 export PATH=$PATH:$GOPATH
 cd src/myStringUtil

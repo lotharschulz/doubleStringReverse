@@ -11,6 +11,7 @@ go install
 
 ## run
 ```
+cd ../../
 go run src/main.go
 ```
 

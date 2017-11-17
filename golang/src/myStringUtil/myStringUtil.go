@@ -14,10 +14,14 @@ func DoubleStringReverse(s string) string {
     //fmt.Println(string(r[j]) + " at [" + strconv.Itoa(j) + "] " + strconv.FormatBool(unicode.IsUpper(r[j])) + " swapcase(" + strconv.Itoa(j) + "): " + string(swapCase(r[j])) )
     r[i], r[j] = swapCase(r[j]), swapCase(r[i])
   }
-  // @TODO: convert the rune in the middle of the string in case the number of chars is odd
+
+  if len(r) > 0 && len(r) % 2 == 1 {
+    var index = (len(r)-1)/2
+    //fmt.Println(string(r[index]) + " at [" + strconv.Itoa(index) + "] " + strconv.FormatBool(unicode.IsUpper(r[index])) + " swapcase(" + strconv.Itoa(index) + "): " + string(swapCase(r[index])) )
+    r[index] = swapCase(index)
+  }
   return string(r)
 }
-
 
 func swapCase(r rune) rune {
     var res rune

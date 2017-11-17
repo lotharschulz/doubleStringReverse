@@ -7,9 +7,8 @@ import (
 )
 
 func TestDoubleStringReverseToReturnDoubleReversedInputString(t *testing.T) {
-	actualResult := Reverse("abc")
-	var expectedResult = "CBA"
-	t.Fatal()
+	actualResult := DoubleStringReverse("abcde")
+	var expectedResult = "EDCBA"
 	assert.Equal(t, expectedResult, actualResult)
 	require.Equal(t, expectedResult, actualResult)
 }

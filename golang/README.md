@@ -17,5 +17,7 @@ go run main.go
 
 ## test
 ```
-go test -v ./... # (in src directory)
+go get -t -v ./... # get dependencies
+go test -v ./myStringUtil # (from src directory)
 ```
+[go test command flags](https://golang.org/cmd/go/#hdr-Description_of_testing_flags)

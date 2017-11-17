@@ -14,6 +14,7 @@ func DoubleStringReverse(s string) string {
     //fmt.Println(string(r[j]) + " at [" + strconv.Itoa(j) + "] " + strconv.FormatBool(unicode.IsUpper(r[j])) + " swapcase(" + strconv.Itoa(j) + "): " + string(swapCase(r[j])) )
     r[i], r[j] = swapCase(r[j]), swapCase(r[i])
   }
+  // @TODO: convert the rune in the middle of the string in case the number of chars is odd
   return string(r)
 }
 

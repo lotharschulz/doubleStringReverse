@@ -4,7 +4,7 @@
 ```
 GOPATH=$(pwd)
 echo $GOPATH
-export PATH=$PATH:$GOPATH
+export PATH=$PATH:$GOPATH/bin
 cd src/myStringUtil
 go install
 ```

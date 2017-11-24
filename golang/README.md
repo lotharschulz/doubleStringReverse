@@ -4,7 +4,7 @@
 ```
 GOPATH=$(pwd)
 echo $GOPATH
-export PATH=$PATH:$GOPATH
+export PATH=$PATH:$GOPATH/bin
 cd src/myStringUtil
 go install
 ```
@@ -20,4 +20,9 @@ go run main.go
 go get -t -v ./... # get dependencies
 go test -v ./myStringUtil # (from src directory)
 ```
-[go test command flags](https://golang.org/cmd/go/#hdr-Description_of_testing_flags)
+additional [go test command flags](https://golang.org/cmd/go/#hdr-Description_of_testing_flags)
+
+## go environment
+```
+go env
+```

@@ -1,2 +1,8 @@
+# golang
 *.a
 github.com
+
+# python
+.cache
+.idea
+__pycache__

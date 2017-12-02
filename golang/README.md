@@ -1,6 +1,6 @@
 # golang double string reverse
 
-## install
+## set up 
 ```
 GOPATH=$(pwd)
 echo $GOPATH

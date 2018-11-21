@@ -9,5 +9,5 @@ using different programming languages
 ## golang
 [golang sample code](./golang/README.md)
 
-##python
+## python
 [python sample code](./python/README.md)

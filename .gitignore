@@ -6,3 +6,12 @@ github.com
 .cache
 .idea
 __pycache__
+
+#kotlin
+.idea
+.gradle
+build
+out
+
+# general
+.DS_Store

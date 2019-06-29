@@ -7,7 +7,10 @@ reverses strings
 using different programming languages
 
 ## golang
-[golang sample code](./golang/README.md)
+[golang code](./golang/README.md)
 
 ## python
-[python sample code](./python/README.md)
+[python code](./python/README.md)
+
+## kotlin
+[kotlin code](./kotlin/README.md)

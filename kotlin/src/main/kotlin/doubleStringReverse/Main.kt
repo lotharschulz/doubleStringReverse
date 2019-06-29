@@ -1,7 +1,7 @@
 package info.ls.doubleStringReverse
 
-fun main(args: Array<String>) {
-    Util.doubleStringReverse("yo")
+fun main() {
+    println(Util.doubleStringReverse("ESREVEr GNIRTs ELBUOd NILTOk"))
 }
 
 object Util{

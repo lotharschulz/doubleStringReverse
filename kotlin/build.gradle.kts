@@ -5,13 +5,8 @@ plugins {
     kotlin("jvm") version "1.3.40"
 }
 
-group = "doubleStringReverse"
-version = "1.0-SNAPSHOT"
-
-//val mainClass by extra("io.ktor.server.netty.EngineMain")
-
 application {
-//    mainClassName = mainClass
+    mainClassName = "info.ls.doubleStringReverse.MainKt"
 }
 
 java.sourceCompatibility = JavaVersion.VERSION_11

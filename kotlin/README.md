@@ -9,3 +9,8 @@
 ```
 ./gradlew test
 ```
+
+#### clean, test, run
+```
+./gradlew clean test run
+```
